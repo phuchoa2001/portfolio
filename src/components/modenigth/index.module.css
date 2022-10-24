@@ -1,0 +1,19 @@
+.btn {
+    margin: auto;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    width: 100%;
+    justify-content: center;
+    border-radius: 25px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    color: var(--text-black);
+}
+.icon {
+    margin-right: 10px;
+    color: var(--text-black);
+    cursor: pointer;
+}

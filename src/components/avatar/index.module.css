@@ -1,0 +1,34 @@
+.Avatar {
+    width: 50%;
+}
+.img {
+    width: 100%;
+    height: 100%;
+}
+@media only screen and (max-width: 539px) {
+    /* PC Điện thoại nhỏ hơn 539px */
+    .Avatar {
+        width: 100%;
+        margin-top: 10px;
+        height: auto;
+    }
+}
+@media only screen and (min-width: 540px) and (max-width: 719px) {
+    /* Điện thoại màn hình lớn thua IPAD */
+    .Avatar {
+        width: 100%;
+        margin-top: 10px;
+        height: auto;
+    }
+}
+@media only screen and (min-width: 1140px) and (max-width: 1319px) {
+    /* PC lớn hơn 1200px */
+    .img  {
+        width: 80%;
+    }
+}
+@media only screen and (min-width: 1320px) {
+    .img  {
+        width: 80%;
+    }
+}

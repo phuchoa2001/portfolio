@@ -1,0 +1,83 @@
+.menumobile {
+    height: 50px;
+    width: 100%;
+    background: var(--background-white);
+    position: fixed;
+    z-index: 99;
+    left: 0px;
+}
+.name {
+    font-weight: bold;
+    color: var(--text-black);
+}
+.boxIcon{
+    color: var(--text-black);
+}
+.open {
+    height: 100vh;
+}   
+.warpper {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 5%;
+}
+.subMenu {
+    width: 90%;
+    margin-left: 5%;
+}
+.item {
+    height: 49px;
+    border-bottom: 1px solid var(--color-borderWhite);
+    display: flex;
+    align-items: center;
+}
+.icon {
+    margin-right: 10px;
+    color: var(--text-black);
+}
+.href {
+    text-decoration: none;
+    color: var(--text-black);
+}
+.Box {
+    width: 100%; 
+    display: flex;
+}
+@media only screen and (min-width: 720px) and (max-width: 959px) {
+    /* IPAD  */
+    .warpper {
+        width: 98%;
+        margin-left: 1%;
+    }
+    .subMenu {
+        width: 98%;
+        margin-left: 1%;
+    }
+}
+@media only screen and (min-width: 960px) and (max-width: 1139px) {
+    /* IPAD Pro */
+    .warpper {
+        width: 98%;
+        margin-left: 1%;
+    }
+    .subMenu {
+        width: 98%;
+        margin-left: 1%;
+    }
+}
+@media only screen and (min-width: 1140px) and (max-width: 1319px) {
+    /* PC lớn hơn 1200px */
+    .menumobile {
+        width: 98%;
+        margin-left: 1%;
+    }
+}
+@media only screen and (min-width: 1320px) {
+    .menumobile {
+        display: none;
+    }
+}

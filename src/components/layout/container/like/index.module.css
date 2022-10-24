@@ -1,0 +1,9 @@
+.like {
+    height: auto;
+    width: 100%;
+    padding-top: 100px;
+    background: var(---background-page);
+}
+.listLike {
+    margin-top: 20px;
+}

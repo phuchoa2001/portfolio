@@ -1,0 +1,50 @@
+.Menu {
+    position: fixed;
+    width: 50px;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px;
+    background: var(--primary);
+    border-radius: 30px;
+}
+.Boxicon {
+    padding: 20px 0px;
+    cursor: pointer;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-size: 20px;
+}
+.Boxicon:hover {
+    opacity: 0.7;
+}
+.img {
+    height: 20px;
+    width: 20px;
+    margin: auto;
+}
+@media only screen and (max-width: 539px) {
+    /* PC Điện thoại nhỏ hơn 539px */
+    .Menu {
+        display: none;
+    }
+}
+@media only screen and (min-width: 540px) and (max-width: 719px) {
+    /* Điện thoại màn hình lớn thua IPAD */
+    .Menu {
+        display: none;
+    }
+}
+@media only screen and (min-width: 720px) and (max-width: 959px) {
+    /* IPAD  */
+    .Menu {
+        display: none;
+    }
+}
+@media only screen and (min-width: 960px) and (max-width: 1139px) {
+    /* IPAD Pro */
+    .Menu {
+        display: none;
+    }
+}

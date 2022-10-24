@@ -1,0 +1,20 @@
+.page {
+    padding: 20px 0px;
+    display: flex;
+    justify-content: center;
+}
+.boxIcon {
+    padding: 0px 10px;
+    cursor: pointer;
+    color: var(--text-black);
+}
+.boxIcon:hover {
+    opacity: 0.7;
+}
+.icon {
+    font-size: 20px;
+}
+.disabled {
+    pointer-events: none;
+    color: #b4bec6;
+}

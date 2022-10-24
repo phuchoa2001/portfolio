@@ -1,0 +1,15 @@
+.BoxIcon {
+    margin: 20px 0px;
+    display: flex;
+    color: var(--text-black);
+    cursor: pointer;
+}
+.icon {
+    margin-right: 10px ;
+    color: var(--text-black);
+}
+.img {
+    height: 20px;
+    width: 20px;
+    margin-right: 10px ;
+}

@@ -1,0 +1,73 @@
+.product {
+    height: auto;
+    width: 100%;
+    padding-top: 100px;
+    background: var(---background-page);
+}
+.text {
+    text-align: center;
+    width: 100%;
+    font-size: 50px;
+    font-weight: bold;
+    color: var(--text-black);
+}
+.boxText {
+    width: 90%;
+    margin-left: 5%;
+    padding: 20px 0px;
+}
+.listTag {
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+    margin-top: 30px;
+}
+.wrapper {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.tag {
+    font-size: 13px;
+    cursor: pointer;
+    padding: 0px 5px;
+    margin: 10px 0px;
+    color: var(--text-black);
+}
+.tag:hover {
+    color: var(--primary);
+}
+.active {
+    color: var(--primary);
+}
+.listProduct {
+    margin-top: 20px;
+}
+.pagination {
+    display: flex;
+    width: 100%;
+    margin-top: 10px;
+   justify-content: center;
+}
+@media only screen and (max-width: 539px) {
+    /* PC Điện thoại nhỏ hơn 539px */
+    .listTag {
+        width: 100%;
+        margin-left: 0%;
+    }
+}
+@media only screen and (min-width: 540px) and (max-width: 719px) {
+    /* Điện thoại màn hình lớn thua IPAD */
+    .listTag {
+        width: 100%;
+        margin-left: 0%;
+    }
+}
+@media only screen and (min-width: 720px) and (max-width: 959px) {
+    /* IPAD  */
+    .listTag {
+        width: 100%;
+        margin-left: 0%;
+    }
+}
+

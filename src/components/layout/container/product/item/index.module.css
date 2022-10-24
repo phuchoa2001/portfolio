@@ -1,0 +1,171 @@
+.item {
+    width: 100%;
+    background: var(--background-cardlike);
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 485px;
+}
+.item:hover {
+    box-shadow: var(--background-cardlike-hover);
+    border-color: var(--background-cardlike-border);
+    cursor: pointer;
+}
+.wrapper {
+    width: 80%;
+    display: flex;
+    height: 80%;
+    flex-wrap: wrap;
+}
+.Boximage,
+.content {
+    width: 50%;
+}
+.Boximage {
+    overflow: hidden;
+    height: 100%;
+    width: 50%;
+}
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.img {
+    width: 92%;
+    margin-left: 4%;
+}
+.name {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    line-height: 36px;
+    color: var(--text-black);
+}
+.description {
+    font-size: 13px;
+    line-height: 36px;
+    color: var(--text-black);
+}
+.listtags {
+    display: flex;
+    font-size: 13px;
+    flex-wrap: wrap;
+}
+.listtags p {
+    padding: 5px 10px;
+    margin: 5px 2px;
+    background-color: #f5f6f8;
+}
+.wrapperInfo {
+    width: 100%;
+}
+.btn {
+    padding: 10px 20px;
+    margin-right: 10px;
+    background: none;
+    cursor: pointer;
+    color: var(--text-black);
+    border: 1px solid var(--btn-border);
+}
+.btn:hover {
+    background: var(--primary);
+    color: #f5f6f8;
+}
+@media only screen and (max-width: 539px) {
+    /* PC Điện thoại nhỏ hơn 539px */
+    .item {
+        height: auto;
+        padding: 20px 0px;
+    }
+    .Boximage {
+        height: auto;
+        width: 100%;
+    }
+    .content {
+        height: auto;
+        width: 100%;
+    }
+    .Boximage {
+        display: flex;
+    }
+    .img {
+        width: 100%;
+        margin: auto;
+    }
+    .name {
+        margin-top: 10px;
+    }
+    .wrapper {
+        width: 98%;
+        margin-left: 1%;
+        height: 100%;
+    }
+    .btn {
+        margin-top: 15px;
+    }
+}
+@media only screen and (min-width: 540px) and (max-width: 719px) {
+    /* Điện thoại màn hình lớn thua IPAD */
+    .item {
+        height: auto;
+        padding: 20px 0px;
+    }
+    .Boximage {
+        height: auto;
+        width: 100%;
+    }
+    .content {
+        height: auto;
+        width: 100%;
+    }
+    .Boximage {
+        display: flex;
+    }
+    .img {
+        width: 100%;
+        margin: auto;
+    }
+    .name {
+        margin-top: 10px;
+    }
+    .wrapper {
+        width: 98%;
+        margin-left: 1%;
+        height: 100%;
+    }
+    .btn {
+        margin-top: 15px;
+    }
+}
+@media only screen and (min-width: 720px) and (max-width: 959px) {
+    /* IPAD  */
+    .Boximage {
+        height: 100%;
+        width: 100%;
+    }
+    .content {
+        height: 60%;
+        width: 100%;
+    }
+    .Boximage {
+        display: flex;
+    }
+    .img {
+        width: 70%;
+        margin: auto;
+    }
+    .name {
+        margin-top: 50px;
+    }
+    .wrapper {
+        width: 96%;
+        height: auto;
+        padding-bottom: 30px;
+    }
+    .boxBtn {
+        margin-top: 30px;
+    }
+}

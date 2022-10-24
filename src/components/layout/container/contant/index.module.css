@@ -1,0 +1,41 @@
+.contant {
+    height: auto;
+    width: 100%;
+    padding-top: 100px;
+    background: var(---background-page);
+}
+.wrapper {
+    margin-top: 30px;
+    padding: 50px 0px;
+}
+.wrapperItem {
+    padding: 20px 0px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.boxIcon {
+    width: 100%;
+    padding-bottom: 15px;
+    display: flex;
+    color: var(--text-black);
+}
+.Icon {
+    font-size: 60px;
+    margin: auto;
+}
+.Info {
+    width: 100%;
+    text-align: center;
+    color: var(--text-black);
+}
+.heading {
+    font-weight: bold;
+    margin: 10px 0px;
+    color: var(--text-black);
+}
+.text {
+    color: var(--text-black);
+}

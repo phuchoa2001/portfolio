@@ -1,0 +1,10 @@
+.skill {
+    height: auto;
+    width: 100%;
+    padding-top: 100px;
+    background: var(---background-page);
+}
+.listSkill {
+    margin-top: 30px;
+    padding: 100px 0px;
+}

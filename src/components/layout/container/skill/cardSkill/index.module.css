@@ -1,0 +1,50 @@
+.wrapper {
+    height: 100px;
+    width: 100px;
+    background: var(--background-cardlike);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.wrapper:hover {
+    box-shadow: var(--background-cardlike-hover);
+    border-color: var(--background-cardlike-border);
+    cursor: pointer;
+}
+.content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.boximg {
+    height: 60%;
+    min-height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img {
+    height: 50%;
+}
+.img:hover {
+    transform: scale(1.3);
+}
+.name {
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 10px;
+    color: var(--text-black);
+}
+.name:hover {
+    color: var(--primary);
+}
+@media only screen and (max-width: 280px) {
+    /* PC Điện thoại nhỏ hơn 280px */
+    .wrapper {
+        width: 100%;
+    }
+}

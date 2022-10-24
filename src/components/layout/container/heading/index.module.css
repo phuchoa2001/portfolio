@@ -1,0 +1,12 @@
+.text {
+    text-align: center;
+    width: 100%;
+    font-size: 50px;
+    font-weight: bold;
+    color: var(--text-black);
+}
+.boxText {
+    width: 90%;
+    margin-left: 5%;
+    padding: 20px 0px;
+}

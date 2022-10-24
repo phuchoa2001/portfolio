@@ -1,0 +1,47 @@
+.Footer {
+    background: var(--background-footer);
+    padding: 60px;
+}
+.item {
+    margin-top: 30px;
+}
+.HeadingMessage {
+    color: var(--text-white);
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+.boxInput {
+    display: flex;
+}
+.input {
+    width: 80%;
+    padding-left: 10px;
+    height: 40px;
+    font-size: 18px;
+    outline: none;
+    box-shadow: none;
+    border: none;
+}
+.boxIcon {
+    height: 100%;
+    width: 42px;
+    background: var(--primary);
+    height: 42px;
+    display: flex;
+    cursor: pointer;
+}
+.Icon {
+    color: #fff;
+    margin: auto;
+}
+.listSocial {
+    display: flex;
+    flex-wrap: wrap;
+}
+.boxIconSocial {
+    margin-right: 15px;
+}
+.iconSocial {
+    font-size: 16px;
+    color: var(--text-white);
+}
